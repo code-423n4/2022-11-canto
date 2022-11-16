@@ -47,12 +47,12 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 ---
 
-# Sponsorname contest details
-- Total Prize Pool: Sum of below awards
-  - HM awards: $17,000 USDC (Notion Field: Main Pool)
-  - QA report awards: $2,000 USDC (Notion Field: QA Pool, usually 10% of total award pool)
-  - Gas report awards: $1,000 USDC (Notion Field: Gas Pool, usually 5% of total award pool)
-  - Judge + presort awards: $4,000 USDC (Notion Field: Judge Fee)
+# Canto contest details
+- Total Prize Pool: $24,500 USDC
+  - HM awards: $17,000 USDC
+  - QA report awards: $2,000 USDC
+  - Gas report awards: $1,000 USDC
+  - Judge + presort awards: $4,000 USDC
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-11-canto-contest/submit)
