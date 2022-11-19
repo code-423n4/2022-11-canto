@@ -46,10 +46,10 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 ---
 
 # Canto contest details
-- Total Prize Pool: $24,500 USDC
-  - HM awards: $17,000 USDC
-  - QA report awards: $2,000 USDC
-  - Gas report awards: $1,000 USDC
+- Total Prize Pool: $24,500 CANTO
+  - HM awards: $17,000 CANTO
+  - QA report awards: $2,000 CANTO
+  - Gas report awards: $1,000 CANTO
   - Judge + presort awards: $4,000 USDC
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
