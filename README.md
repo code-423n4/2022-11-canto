@@ -1,9 +1,9 @@
 # Canto contest details
-- Total Prize Pool: $24,500 CANTO
-  - HM awards: $17,000 CANTO
-  - QA report awards: $2,000 CANTO
-  - Gas report awards: $1,000 CANTO
-  - Judge + presort awards: $4,000 CANTO
+- Total Prize Pool: $24,500 worth of CANTO
+  - HM awards: $17,000 worth of CANTO
+  - QA report awards: $2,000 worth of CANTO
+  - Gas report awards: $1,000 worth of CANTO
+  - Judge + presort awards: $4,000 worth of CANTO
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-11-canto-contest/submit)
