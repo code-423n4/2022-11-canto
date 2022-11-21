@@ -40,9 +40,13 @@ Code for a smart contract (`contracts/turnstile.sol`), which is the same as (`CI
 
 We present a novel economic mechanism which modifies EIP-1559 to distribute a portion of the total base fee (an amount that would otherwise be burnt) to the deployers of the contracts that consume gas within a given block.  Our goal is to implement the CSR protocol with as few changes as possible to the existing EIP-1559 specification while also providing a simple and flexible user experience.
 
+---
+
 ### CSR Store
 
 The Canto CSR Store is a revenue-sharing-per-transaction model that allows smart contract developers to accumulate revenue to a tradable NFT.  In this model, developers deploy smart contracts that generate revenue via transaction fees that go directly to an NFT. Developers register their dApps with a special CSR smart contract that mints an NFT or adds smart contracts to an existing NFT. The split between transactions fees that go to network operators and NFTs is implemented and configurable by the `x/csr` module.
+
+---
 
 ### Turnstile Smart Contract
 
