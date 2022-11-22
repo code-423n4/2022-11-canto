@@ -10,6 +10,7 @@
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts November 23, 2022 20:00 UTC
 - Ends November 28, 2022 20:00 UTC
+- ⚡Ethereum and ⚛Cosmos Leagues
 
 ## C4udit / Publicly Known Issues
 
