@@ -176,6 +176,7 @@ message CSR {
     - Contains the functionality described in the Turnstile and CSR NFT sections listed above
     - Uses open zeppelin ERC721
 
+---
 
 ## Install dependencies
 
@@ -224,6 +225,7 @@ go test -v -race ./
   - Eth JSON RPC url: http://localhost:8545
 - if running on VPS: http://IP_ADDRESS:8545
 
+---
 
 ## Scoping Details 
 ```
