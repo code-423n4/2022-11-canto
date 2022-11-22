@@ -26,13 +26,14 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 ---
 
-## Contest Scope:
-
-The contest scope includes:
+## Overview
+This contest covers:
 
 Code for a new cosmos module (`x/csr`).
 
 Code for a smart contract (`contracts/turnstile.sol`), which is the same as (`CIP-001/src/Turnstile.sol`). The smart contract is a modification of ERC 721 while `Canto/x/csr` is a standard cosmos module that was scaffolded by Ignite CLI.
+
+## Contest Scope:
 
 | Smart Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
