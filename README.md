@@ -34,8 +34,6 @@ Code for a new cosmos module (`x/csr`).
 
 Code for a smart contract (`contracts/turnstile.sol`), which is the same as (`CIP-001/src/Turnstile.sol`). The smart contract is a modification of ERC 721 while `Canto/x/csr` is a standard cosmos module that was scaffolded by Ignite CLI.
 
-*List all files in scope in the table below -- and feel free to add notes here to emphasize areas of focus.*
-
 | Smart Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
 | CIP-001/src/Turnstile.sol (same as Canto/contracts/turnstile.sol) | 54 | Contract that registers other contracts for CSR | [`@openzeppelin/token/ERC721/extensions/ERC721Enumerable.sol`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol) [`@openzeppelin/access/Ownable.sol`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol) [`@openzeppelin/utils/Counters.sol`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol)|
