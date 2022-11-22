@@ -70,7 +70,9 @@ The Canto CSR Store is a revenue-sharing-per-transaction model that allows smart
 
 - [smart contract code](https://github.com/code-423n4/2022-11-canto/tree/add-readme/CIP-001)
 
-On the application layer, CSR functions as a series of smart contracts responsible for generating and maintaining a registry of eligible contract addresses. As a contract creator, participation is on an opt-in basis. Should a contract creator choose to deploy a CSR enabled contract, they must integrate support for the CSR Turnstile, described in the section below. Upon deployment of a CSR enabled contract, the contract creator is minted a CSR NFT. This NFT acts as a claim ticket for all future fees accrued. Smart contract developers can add smart contracts to existing NFTs. Smart contracts that are written using the factory pattern can be automatically CSR-enabled when the turnstile code is injected. The CSR Turnstile contract is deployed by the module account upon genesis.
+On the application layer, CSR functions as a series of smart contracts responsible for generating and maintaining a registry of eligible contract addresses. As a contract creator, participation is on an opt-in basis. Should a contract creator choose to deploy a CSR enabled contract, they must integrate support for the CSR Turnstile, described in the section below. Upon deployment of a CSR enabled contract, the contract creator is minted a CSR NFT. This NFT acts as a claim ticket for all future fees accrued. Smart contract developers can add smart contracts to existing NFTs. Smart contracts that are written using the factory pattern can be automatically CSR-enabled when the turnstile code is injected. 
+
+**The CSR Turnstile contract is deployed by the CSR module account upon genesis.**
 
 ---
 
