@@ -16,6 +16,9 @@ forge script script/Turnstile.s.sol:TurnstileScript --rpc-url $ETHEREUM_RPC_URL 
 ## Test
 `forge test -vvv`
 
+## Gas report
+`forge test --gas-report`
+
 ## Test coverage
 `forge coverage`
 
