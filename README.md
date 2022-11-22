@@ -175,3 +175,76 @@ message CSR {
 - Turnstile.sol (54 loc)
     - Contains the functionality described in the Turnstile and CSR NFT sections listed above
     - Uses open zeppelin ERC721
+
+
+## Install dependencies
+
+**If using Ubuntu:**
+
+Install all dependencies:
+
+`sudo snap install go --classic && sudo apt-get install git && sudo apt-get install gcc && sudo apt-get install make`
+
+Or install individually:
+
+-   go1.18+: `sudo snap install go --classic`
+-   git: `sudo apt-get install git`
+-   gcc: `sudo apt-get install gcc`
+-   make: `sudo apt-get install make`
+
+**If using Arch Linux:**
+
+-   go1.18+: `pacman -S go`
+-   git: `pacman -S git`
+-   gcc: `pacman -S gcc`
+-   make: `pacman -S make`
+
+## Install `cantod`
+
+**In order to make install on some machines, you may need to rename contracts/compiled_contracts/turnstile.json to contracts/compiled_contracts/Turnstile.json (capitalize the t in turnstile.json)**
+
+```bash
+cd Canto
+make install
+```
+
+## Running local testnet:
+```bash
+# inside Canto directory
+./init_testnet.sh
+```
+
+## Running tests:
+```bash
+# inside x/csr/keeper and x/csr/types directories:
+go test -v -race ./
+```
+
+- Testnet will run with locahost ports
+  - Eth JSON RPC url: http://localhost:8545
+- if running on VPS: http://IP_ADDRESS:8545
+
+
+## Scoping Details 
+```
+- If you have a public code repo, please share it here:  https://github.com/Canto-Network/Canto
+- How many contracts are in scope?:   1 cosmos SDK module, 1 smart contract
+- Total SLoC for these contracts?:  275
+- How many external imports are there?:  4
+- How many separate interfaces and struct definitions are there for the contracts within scope?:  0
+- Does most of your code generally use composition or inheritance?:   inheritance
+- How many external calls?:   0
+- What is the overall line coverage percentage provided by your tests?:  100
+- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:  false
+- Please describe required context:   
+- Does it use an oracle?:  false
+- Does the token conform to the ERC20 standard?:  n/a
+- Are there any novel or unique curve logic or mathematical models?: no
+- Does it use a timelock function?:  no
+- Is it an NFT?: yes, uses ERC721
+- Does it have an AMM?:   no
+- Is it a fork of a popular project?:   false
+- Does it use rollups?:   false
+- Is it multi-chain?:  false
+- Does it use a side-chain?: false
+```
