@@ -36,13 +36,21 @@ Code for a smart contract (`contracts/turnstile.sol`), which is the same as (`CI
 
 *List all files in scope in the table below -- and feel free to add notes here to emphasize areas of focus.*
 
-| Contract | SLOC | Purpose | Libraries used |  
+| Smart Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| contracts/folder/sample.sol | 123 | This contract does XYZ | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| CIP-001/src/Turnstile.sol (same as Canto/contracts/turnstile.sol) | 54 | Contract that registers other contracts for CSR | [`@openzeppelin/token/ERC721/extensions/ERC721Enumerable.sol`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol) [`@openzeppelin/access/Ownable.sol`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol) [`@openzeppelin/utils/Counters.sol`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol)|
+
+| Cosmos Module File (all in x/csr) | SLOC | Purpose |
+| -------------------| ----| ---------|
+| keeper/csr.go | 34 | Contains set and get logic for csr store |
+| keeper/keeper.go | 20 | Contains keeper and key definitions |
+| keeper/evm.go | 47 | Contains all of the functionality that allows us to interact with the EVM and `Turnstile` contract. | 
+| keeper/event_handler.go | 47 | This defines the events that the module will be looking out for in the EVM hook defined and implemented in evm_hooks.go. |
+| keeper/evm_hooks.go | 62 | This is where the core fee distribution logic exists. TLDR is every transaction will have a set of events that are emitted. We check if the tx had either a `assign` or `register` event emitted, internally store the contract to its associated NFT if necessary, and distribute the fees accordingly. If the smart contract was previously registered, we check if the smart belongs to some CSR NFT by looking through the keeper. If so, we distribute fees that have accumulated. |
 
 ## Out of scope
 
-*List any files/contracts that are out of scope for this audit.*
+**all other contracts and Cosmos SDK modules are out of scope for this contract**
 
 ---
 
@@ -158,7 +166,7 @@ message CSR {
     - This defines the events that the module will be looking out for in the EVM hook defined and implemented in evm_hooks.go.
 - evm_hooks.go (62 loc)
     - This is where the core fee distribution logic exists. TLDR is every transaction will have the set of events that were emitted. We check if the tx had either a `assign` or `register` event emitted, internally store the contract to its associated NFT if necessary, and distribute the fees accordingly.
-    - If the smart contract was previously registered, we check if the smart belongs to some CSR NFT by looking through the keeper. If so, we distribute
+    - If the smart contract was previously registered, we check if the smart belongs to some CSR NFT by looking through the keeper. If so, we distribute fees that have accumulated.
 - evm.go (47 loc)
     - Contains all of the functionality that allows us to interact with the EVM and `Turnstile` contract.
 
