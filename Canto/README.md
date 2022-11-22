@@ -22,18 +22,25 @@ Or install individually:
 
 ## Install `cantod`
 
+**In order to make install on some machines, you may need to rename contracts/compiled_contracts/turnstile.json to contracts/compiled_contracts/Turnstile.json (capitalize the t in turnstile.json)**
+
 ```bash
 cd Canto
 make install
-
 ```
 
 ## Running local testnet:
 ```bash
 # inside Canto directory
 ./init_testnet.sh
-
 ```
+
+## Running tests:
+```bash
+# inside x/csr/keeper and x/csr/types directories:
+go test -v -race ./
+```
+
 - Testnet will run with locahost ports
   - Eth JSON RPC url: http://localhost:8545
 - if running on VPS: http://IP_ADDRESS:8545
