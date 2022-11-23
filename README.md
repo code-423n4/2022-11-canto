@@ -20,10 +20,18 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 # Table of Contents
 
-1. [Contest Scope](#contest-scope)
-2. [Project Overview](#project-overview)
-3. [Cosmos SDK Module](#cosmos-sdk-modules)
-4. [Smart Contracts](#smart-contracts)
+1. [Overview](#overview)
+2. [Contest Scope](#contest-scope)
+3. [Out of Scope](#out-of-scope)
+4. [Project Overview](#project-overview)
+5. [Cosmos SDK Module](#cosmos-sdk-modules)
+6. [Smart Contracts](#smart-contracts)
+7. [Install Dependencies](#install-dependencies)
+8. [Install 'cantod'](#install-cantod)
+9. [Running local testnet](#running-local-testnet)
+10. [Running tests](#running-tests)
+11. [Running EVM tests](#running-evm-tests)
+12. [Scoping Details](#scoping-details)
 
 ---
 
