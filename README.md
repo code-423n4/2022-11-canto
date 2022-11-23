@@ -227,6 +227,11 @@ go test -v -race ./
   - Eth JSON RPC url: http://localhost:8545
 - if running on VPS: http://IP_ADDRESS:8545
 
+## Running EVM tests
+```bash
+# under CIP-001 
+forge install && forge test --gas-report
+```
 ---
 
 ## Scoping Details 
