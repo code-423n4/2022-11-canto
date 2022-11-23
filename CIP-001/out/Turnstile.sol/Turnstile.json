@@ -1870,6 +1870,7 @@
         "id": 26312,
         "nodeType": "PragmaDirective",
         "src": "34:23:22",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1880,6 +1881,7 @@
         "id": 26313,
         "nodeType": "ImportDirective",
         "src": "59:41:22",
+        "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "file": "openzeppelin/access/Ownable.sol",
         "nameLocation": "-1:-1:-1",
@@ -1892,6 +1894,7 @@
         "id": 26314,
         "nodeType": "ImportDirective",
         "src": "101:67:22",
+        "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
         "file": "openzeppelin/token/ERC721/extensions/ERC721Enumerable.sol",
         "nameLocation": "-1:-1:-1",
@@ -1904,6 +1907,7 @@
         "id": 26315,
         "nodeType": "ImportDirective",
         "src": "169:41:22",
+        "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/utils/Counters.sol",
         "file": "openzeppelin/utils/Counters.sol",
         "nameLocation": "-1:-1:-1",
@@ -1921,6 +1925,7 @@
             "id": 26324,
             "nodeType": "UsingForDirective",
             "src": "686:36:22",
+            "nodes": [],
             "global": false,
             "libraryName": {
               "id": 26321,
@@ -1958,6 +1963,7 @@
             "id": 26329,
             "nodeType": "StructDefinition",
             "src": "728:72:22",
+            "nodes": [],
             "canonicalName": "Turnstile.NftData",
             "members": [
               {
@@ -2024,6 +2030,7 @@
             "id": 26332,
             "nodeType": "VariableDeclaration",
             "src": "806:40:22",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_tokenIdTracker",
@@ -2062,6 +2069,7 @@
             "id": 26338,
             "nodeType": "VariableDeclaration",
             "src": "908:47:22",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 26333,
@@ -2125,6 +2133,7 @@
             "id": 26343,
             "nodeType": "VariableDeclaration",
             "src": "1006:43:22",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 26339,
@@ -2178,6 +2187,7 @@
             "id": 26351,
             "nodeType": "EventDefinition",
             "src": "1056:74:22",
+            "nodes": [],
             "anonymous": false,
             "eventSelector": "cc0bec1447060c88cdc5a739cf29cfa26c453574dd3f5b9e4dcc317d6401cb1c",
             "name": "Register",
@@ -2280,6 +2290,7 @@
             "id": 26357,
             "nodeType": "EventDefinition",
             "src": "1135:53:22",
+            "nodes": [],
             "anonymous": false,
             "eventSelector": "8a0e37b73a0d9c82e205d4d1a3ff3d0b57ce5f4d7bccf6bac03336dc101cb7ba",
             "name": "Assign",
@@ -2353,6 +2364,7 @@
             "id": 26365,
             "nodeType": "EventDefinition",
             "src": "1193:70:22",
+            "nodes": [],
             "anonymous": false,
             "eventSelector": "9da6493a92039daf47d1f2d7a782299c5994c6323eb1e972f69c432089ec52bf",
             "name": "Withdraw",
@@ -2454,6 +2466,7 @@
             "id": 26371,
             "nodeType": "EventDefinition",
             "src": "1268:57:22",
+            "nodes": [],
             "anonymous": false,
             "eventSelector": "916ad8171ef8c567c7790377a142f0200f9565940680c06e30dd105cfd924968",
             "name": "DistributeFees",
@@ -2526,6 +2539,7 @@
             "id": 26373,
             "nodeType": "ErrorDefinition",
             "src": "1331:19:22",
+            "nodes": [],
             "errorSelector": "eea91ff8",
             "name": "NotAnOwner",
             "nameLocation": "1337:10:22",
@@ -2540,6 +2554,7 @@
             "id": 26375,
             "nodeType": "ErrorDefinition",
             "src": "1355:26:22",
+            "nodes": [],
             "errorSelector": "3a81d6fc",
             "name": "AlreadyRegistered",
             "nameLocation": "1361:17:22",
@@ -2554,6 +2569,7 @@
             "id": 26377,
             "nodeType": "ErrorDefinition",
             "src": "1386:21:22",
+            "nodes": [],
             "errorSelector": "7748bce6",
             "name": "Unregistered",
             "nameLocation": "1392:12:22",
@@ -2568,6 +2584,7 @@
             "id": 26379,
             "nodeType": "ErrorDefinition",
             "src": "1412:25:22",
+            "nodes": [],
             "errorSelector": "9c8d2cd2",
             "name": "InvalidRecipient",
             "nameLocation": "1418:16:22",
@@ -2582,6 +2599,7 @@
             "id": 26381,
             "nodeType": "ErrorDefinition",
             "src": "1442:23:22",
+            "nodes": [],
             "errorSelector": "3f6cc768",
             "name": "InvalidTokenId",
             "nameLocation": "1448:14:22",
@@ -2596,6 +2614,7 @@
             "id": 26383,
             "nodeType": "ErrorDefinition",
             "src": "1470:26:22",
+            "nodes": [],
             "errorSelector": "d0d04f60",
             "name": "NothingToWithdraw",
             "nameLocation": "1476:17:22",
@@ -2610,6 +2629,7 @@
             "id": 26385,
             "nodeType": "ErrorDefinition",
             "src": "1501:28:22",
+            "nodes": [],
             "errorSelector": "01663f24",
             "name": "NothingToDistribute",
             "nameLocation": "1507:19:22",
@@ -2624,10 +2644,12 @@
             "id": 26402,
             "nodeType": "ModifierDefinition",
             "src": "1594:125:22",
+            "nodes": [],
             "body": {
               "id": 26401,
               "nodeType": "Block",
               "src": "1634:85:22",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -2820,10 +2842,12 @@
             "id": 26419,
             "nodeType": "ModifierDefinition",
             "src": "1802:161:22",
+            "nodes": [],
             "body": {
               "id": 26418,
               "nodeType": "Block",
               "src": "1830:133:22",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3008,10 +3032,12 @@
             "id": 26427,
             "nodeType": "FunctionDefinition",
             "src": "1969:49:22",
+            "nodes": [],
             "body": {
               "id": 26426,
               "nodeType": "Block",
               "src": "2016:2:22",
+              "nodes": [],
               "statements": []
             },
             "implemented": true,
@@ -3091,10 +3117,12 @@
             "id": 26438,
             "nodeType": "FunctionDefinition",
             "src": "2146:109:22",
+            "nodes": [],
             "body": {
               "id": 26437,
               "nodeType": "Block",
               "src": "2206:49:22",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3212,10 +3240,12 @@
             "id": 26460,
             "nodeType": "FunctionDefinition",
             "src": "2479:203:22",
+            "nodes": [],
             "body": {
               "id": 26459,
               "nodeType": "Block",
               "src": "2555:127:22",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -3473,10 +3503,12 @@
             "id": 26474,
             "nodeType": "FunctionDefinition",
             "src": "2911:136:22",
+            "nodes": [],
             "body": {
               "id": 26473,
               "nodeType": "Block",
               "src": "2984:63:22",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3629,10 +3661,12 @@
             "id": 26531,
             "nodeType": "FunctionDefinition",
             "src": "3432:504:22",
+            "nodes": [],
             "body": {
               "id": 26530,
               "nodeType": "Block",
               "src": "3520:416:22",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -4357,10 +4391,12 @@
             "id": 26571,
             "nodeType": "FunctionDefinition",
             "src": "4234:379:22",
+            "nodes": [],
             "body": {
               "id": 26570,
               "nodeType": "Block",
               "src": "4310:303:22",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -4859,10 +4895,12 @@
             "id": 26635,
             "nodeType": "FunctionDefinition",
             "src": "4878:524:22",
+            "nodes": [],
             "body": {
               "id": 26634,
               "nodeType": "Block",
               "src": "5035:367:22",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -5644,10 +5682,12 @@
             "id": 26665,
             "nodeType": "FunctionDefinition",
             "src": "5543:224:22",
+            "nodes": [],
             "body": {
               "id": 26664,
               "nodeType": "Block",
               "src": "5610:157:22",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
