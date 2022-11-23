@@ -58,7 +58,7 @@ Code for a smart contract (`contracts/turnstile.sol`), which is the same as (`CI
 
 ## Out of scope
 
-**all other contracts and Cosmos SDK modules are out of scope for this contract**
+**all other contracts and Cosmos SDK modules are out of scope for this contest**
 
 ---
 
