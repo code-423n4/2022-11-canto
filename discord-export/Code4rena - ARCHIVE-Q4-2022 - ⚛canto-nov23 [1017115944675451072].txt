@@ -1,0 +1,900 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2022 / ⚛canto-nov23
+==============================================================
+
+[09/07/2022 16:56] ch_301
+🔥
+
+
+[09/07/2022 16:59] itsmetechjay (pinned)
+👋 Hello and welcome to the contest channel for the $20K worth of CANTO **Canto Dex Oracle** contest!
+
+📆 Contest opens Wednesday, 07 September 2022 20:00 (20:00 UTC) and runs through Thursday, 08 September 2022 20:00 (20:00 UTC) (1 day).
+
+Please give a warm welcome back to the Canto team, particularly @kt_nowk, @Nikhil1234, and @chicagoguy, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-09-canto-dex-oracle-contest
+
+
+[09/07/2022 17:00] itsmetechjay
+ℹ️ : @🐺wardens, please note that for this contest, **gas optimizations are out of scope. **The Canto team will not be awarding prize funds for gas-specific submissions.
+
+{Reactions}
+💯 (27) C4Keycap (8) 🐺 (9) 👀 (12) 👍 (8) chefskiss (4) 4739_Skeletor 
+
+[09/07/2022 19:00] kartoonjoy
+Pinned a message.
+
+{Reactions}
+thankyou (3) 
+
+[09/07/2022 20:08] rokinot
+"Stable pairs follow the x^3y + y^3x = k CF curve invariant. While stable pairs follow the regular constant-product CF invariant, xy = k, where x and y are the reserves of the assets in the pool."
+
+
+[09/07/2022 20:08] rokinot
+i think there was some confusion here
+
+
+[09/07/2022 20:17] chicagoguy#9197
+Apologies for that that was a typo
+
+
+[09/07/2022 20:18] sabnock
+Both of their graphs look like volatile pairs to me
+
+{Reactions}
+👍 (2) 
+
+[09/07/2022 20:18] chicagoguy#9197
+It’s supposed to say volatile pairs follow the xy = k invariant curve
+
+
+[09/07/2022 20:18] devtooligan
+"stable pair" defined as 2 stable coins (ex USDC/USDT), correct?
+
+
+[09/07/2022 20:18] rokinot
+ah ok
+
+
+[09/07/2022 20:18] chicagoguy#9197
+Yes that’s correct. In Cantos case this would be usdc, usdt or Note
+
+{Reactions}
+👍 (2) 
+
+[09/07/2022 20:43] tofunmi
+Finally something about maths 🥲
+
+{Reactions}
+❤️ (4) 🤓 (4) 
+
+[09/07/2022 21:34] ladboy233
+does anyone have trouble run git clone repo command?
+
+
+[09/07/2022 21:42] 0xsorrynotsorry
+The contest scope states 155 SLOC but it's 1001 SLOC in 2 contracts?
+
+
+[09/07/2022 21:44] JohnSmith#1623
+reading contest description is hard, I agree
+
+{Reactions}
+👍 (5) 
+
+[09/07/2022 21:50] devtooligan
+i just assumed they made a mistake at the top part.  it was also advertised as 160 by c4
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/Screen_Shot_2022-09-07_at_2.47.13_PM-87F0B.png
+
+
+[09/07/2022 21:50] minh___
+are you a fellow windows user?
+
+
+[09/07/2022 21:52] chicagoguy#9197
+In the contest description we specified which functions were modified. This ended up coming out to 160 SLOC. The rest of the code is directly from the Solidly swap code which we did not modify.
+
+{Reactions}
+thankyou (2) 
+
+[09/07/2022 22:02] b353n
+There have much for gas optimisation 😉 but is out of scope
+
+{Reactions}
+👍 (2) 
+
+[09/07/2022 22:05] ladboy233
+yes. windows user
+
+
+[09/07/2022 22:09] minh___
+i worked around it by just downloading the zip file instead, if you are still struggling
+
+
+[09/07/2022 22:10] ladboy233
+ok thank you!
+
+
+[09/07/2022 23:05] illilli000
+windows users, please try the solution here: https://confluence.atlassian.com/bitbucketserverkb/error-invalid-path-during-git-clone-to-windows-client-1085186345.html `git config --global core.protectNTFS false`
+
+{Reactions}
+👍 (3) ✅ (5) ❤️ C4Keycap 
+
+[09/07/2022 23:05] illilli000
+then delete the old dir, and try cloning again
+
+
+[09/07/2022 23:59] Tomo | NinjAudit#7394
+Can the report be changed once submitted?
+
+
+[09/08/2022 00:01] minh___
+yes
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/unknown-67EF0.png
+
+{Reactions}
+👍 😍 
+
+[09/08/2022 00:01] b353n
+Yes
+
+{Reactions}
+👍 😍 
+
+[09/08/2022 00:02] Tomo | NinjAudit#7394
+Thanks to the same block.timestamp😂 
+@minhtrng @B353N (33.3%)
+
+{Reactions}
+😂 
+
+[09/08/2022 00:07] tofunmi
+Thinking in audits now bruh 🥲 🥲
+
+{Reactions}
+🧱 (2) ⏲️ 👌 (3) 
+
+[09/08/2022 03:16] linmiaomiao#6297
+can we get the clm code to confirm？i can't find it from github
+
+
+[09/08/2022 03:39] linmiaomiao#6297
+i want to confirm from Comptroller‘s  code @kt_nowk
+
+
+[09/08/2022 03:55] rokinot
+any dev available rn?
+
+
+[09/08/2022 04:25] chicagoguy#9197
+hey
+
+
+[09/08/2022 04:25] chicagoguy#9197
+sorry about that guys
+
+
+[09/08/2022 04:25] chicagoguy#9197
+im available now
+
+
+[09/08/2022 04:25] chicagoguy#9197
+will post the link to the CLM code
+
+
+[09/08/2022 04:26] chicagoguy#9197
+https://github.com/Canto-Network/clm/tree/main/src
+
+{Embed}
+https://github.com/Canto-Network/clm/tree/main/src
+clm/src at main · Canto-Network/clm
+Contribute to Canto-Network/clm development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/clm-ABED6
+
+
+[09/08/2022 04:26] chicagoguy#9197
+this is the clm code
+
+
+[09/08/2022 06:01] linmiaomiao#6297
+thanks～
+
+
+[09/08/2022 07:51] cryptphi
+did anyone manage to run `yarn install --lock-file` succecssfully?
+
+
+[09/08/2022 07:55] soosh4618
+for me an error shows but can just run `npx hardhat test` as normal
+
+
+[09/08/2022 07:57] cryptphi
+mine through some dependencies errors, fixed all that but couldn't run `npx hardhat test` successful, throws a mocha related error
+
+
+[09/08/2022 07:58] cryptphi
+probably the build had some errors...will delete and try again
+
+
+[09/08/2022 08:25] csanuragjain
+Is anyone from Canto team available currently. Have few questions
+
+
+[09/08/2022 09:18] cryptphi
+the test files output seems fixed no matter how much you add or edit them. npx hardhat test will output the same result from original run
+
+
+[09/08/2022 09:28] illilli000
+did you try the all in one command? what is the error part of its output?
+
+
+[09/08/2022 09:58] cryptphi
+thanks got resolved eventually. I think i had one module missing, got it fixed after installing it.
+
+
+[09/08/2022 10:00] illilli000
+and all your tests are working now too?  seeing changes?
+
+
+[09/08/2022 10:13] cryptphi
+the tests run as they are meant to. But when I edit the test file and run again, it only outputs the original test results, doesn't effect the change I made in the file
+
+
+[09/08/2022 10:18] illilli000
+can you do me a favor and try running the all-in-one command in another directory, making the test change there, and running it? I think something you've done may have messed things up. I just tried it with the all in one and everything works fine
+
+
+[09/08/2022 10:25] cryptphi
+I see, thanks... but seems pretty weird i have to run the test with the all-in-one command and not standalone `npx hardhat test filepath` command .  I'll give it a try
+
+
+[09/08/2022 10:27] illilli000
+The all-in-one command ensures that wardens run all commands in the correct order. you had said that you modified some dependencies, and that's not required if you run the all-in-one command as provided
+
+
+[09/08/2022 10:28] illilli000
+thereafter, you can run tests however you like - it just sets everything up properly
+
+
+[09/08/2022 10:30] cryptphi
+alright then. will try it out.....
+
+
+[09/08/2022 10:31] cryptphi
+please can you confirm the decimals() value for wcanto?
+
+
+[09/08/2022 10:35] illilli000
+this is a question for the sponsor, not me, right?
+
+
+[09/08/2022 10:44] cryptphi
+yep...my bad...lol
+
+{Reactions}
+👍 
+
+[09/08/2022 11:45] t_k___
+18 decimals
+
+
+[09/08/2022 12:30] cryptphi
+thanks
+
+
+[09/08/2022 13:36] csanuragjain
+I have few questions to ask, whom can i ping from product team?
+
+
+[09/08/2022 14:18] t_k___
+✋
+
+
+[09/08/2022 16:29] Nikhil1234#4447
+@Nikhil1234
+
+
+[09/08/2022 16:30] Nikhil1234#4447
+18
+
+
+[09/08/2022 17:33] 0xpathfindr
+Question: 
+
+Best practice is to update state variables before calls to avoid reentrancy
+
+But does this still apply if the contract uses safetransfer as the call 
+
+So does safetransfer stop the vulnerability of updating state variables after calls
+
+
+[09/08/2022 17:46] minh___
+> So does safetransfer stop the vulnerability of updating state variables after calls
+no
+
+{Reactions}
+👆 
+
+[09/08/2022 17:47] 0xpathfindr
+Thanks
+
+
+[09/08/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens  The **Canto Dex Oracle** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the Canto team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a contest administrator if you have questions along the way!
+
+{Reactions}
+4739_Skeletor (3) fire_1f525 (4) peepoeyes (3) 💸 
+
+[09/09/2022 06:11] slightscan
+I find 24 hours too little time to understand the project and start reasoning about the issues
+
+{Reactions}
+👍 
+
+[09/09/2022 06:33] indijanc7
+Yep, would agree. While there's very small number of lines in scope, the overall project is huge and you need a lot of time to comprehend everything and understand how those few lines affect the whole system ... Feels like this one was intended more for wardens who worked on previous Canto contests. Still, with a good approach and maybe some luck I'm sure people found issues that will help out the Canto ecosystem.
+
+
+[09/09/2022 10:22] minh___
+dont think you need to have had experience with Canto, just some familiarity with Uniswap and Compound
+
+{Reactions}
+👍 
+
+[09/09/2022 11:51] b353n
+Yes i'm agree 24h is too little for quality report
+
+{Reactions}
+👍 
+
+[09/09/2022 16:26] cryptphi
+I think most didn't read the scope. Not all functions in the 2 contracts were in scope. So the 24 hours timeline was basically to audit those few functions as documented in the contest documentation
+
+{Reactions}
+👍 (6) 👆 (5) 
+
+[09/09/2022 19:04] Saintcode_#8823
+This one was really hard lol
+
+
+[09/19/2022 20:02] sabnock
+Been anxiously awaiting this one
+
+{Reactions}
+👆 
+
+[11/22/2022 17:57] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $24,500 worth of CANTO **Canto** contest!
+
+📆 Contest opens 11/23/2022 20:00 (20:00 UTC) and runs through 11/28/2022 20:00 (20:00 UTC) (5 days).
+
+Please give a warm welcome to the Canto team, particularly  @kt_nowk, @Nikhil1234, @chicagoguy, @tommyz, and @terpayyo, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-11-canto-contest
+
+⚡Ethereum and ⚛Cosmos Leagues
+
+{Embed}
+https://code4rena.com/contests/2022-11-canto-contest
+Code4rena Canto contest
+$24,500 worth of CANTO
+23 November 2022—28 November 2022
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/8df1cc3b-fef3-481c-b99d-398698165d39-CBEE2
+
+
+[11/22/2022 18:32] kartoonjoy
+Pinned a message.
+
+
+[11/23/2022 20:24] thepicodes
+**Automated Findings:** https://gist.github.com/Picodes/710763a1d52c11c4157f2bd653e20533
+
+
+[11/23/2022 20:28] itsmetechjay (pinned)
+Wardens, please note that c4udit output has been posted above and added to pinned posts. These are considered publicly known issues and are not eligible for awards.
+
+**Automated findings: **
+https://gist.github.com/Picodes/710763a1d52c11c4157f2bd653e20533
+
+This will also be linked in the contest README file shortly.
+
+
+[11/23/2022 20:29] itsmetechjay
+Pinned a message.
+
+
+[11/23/2022 22:06] ladboy233
+We are using gooooooo！！！
+
+
+[11/24/2022 02:57] chaduke3730
+where are the go files?
+
+
+[11/24/2022 02:57] chaduke3730
+I meant the keeper directory
+
+
+[11/24/2022 04:02] rotcivegaf
+I have a question for the sponsor someone available?
+
+
+[11/24/2022 04:28] bit.surfer
+Canto/x/csr
+
+
+[11/24/2022 13:21] chaduke3730
+thanks
+
+
+[11/24/2022 19:03] rotcivegaf
+.ping
+
+
+[11/24/2022 19:46] orange#0630
+Hi folks. Apologies for the silly question but what does CSR stand for in the README? I keep thinking of corporate social responsibility but it makes no sense... :psyduck:
+
+
+[11/24/2022 20:17] colingplatt
+Contract secured revenue
+
+
+[11/24/2022 20:19] colingplatt
+20% of the based fee (eip-1559) is paid to the registered smart contract
+
+
+[11/24/2022 20:20] orange#0630
+ahh thanks!
+
+
+[11/25/2022 01:33] rotcivegaf
+someone???
+
+
+[11/25/2022 05:54] rotcivegaf
+Donde
+
+
+[11/25/2022 05:59] chicagoguy#9197
+Sorry for the delay
+
+
+[11/25/2022 05:59] chicagoguy#9197
+Am available to answer questions now feel free to post them here or DM me
+
+
+[11/25/2022 10:15] colingplatt
+hey guys, I pinged TK and I know that he shared some of the info. Resharing here for completeness.  1) I had a question about a straight-forward gas optimization, still sorting out my c4 registration to make the submission. 2) I had a question about batch distributions of fees, looking at the `evm_hooks.go` I'm not sure that's still applicable as each transaction is treated at each transaction.
+
+
+[11/25/2022 10:21] colingplatt
+I had another question (rather than a finding per se), there are a number of contracts currently active on the Canto network, I understand that there is no ability to retroactively allocate a turnstile NFT to previously deployed contracts. I believe that this will create a sizeable amount of additional work for early Canto contract deployers who have contracts linked to external services (e.g., DEXes on Coingecko), as well as a number of downstream effects if those contracts do upgrade and remove support for non-CSR-eligible contracts, including locked liquidity ERC20 tokens which will be forced to migrate (in the situation where a DEX migrates and removes support on the frontend for non-CSR contract).  I'll include a proposal in my submission that the authors consider integrating a function under `onlyOwner` that allows for batch assignment of Turnstile NFTs to remedy this.
+
+
+[11/25/2022 15:53] .0xdave
+I have a question. Who should I dm?
+
+
+[11/25/2022 16:52] terpayyo
+distributing all fees at the end of a block instead or by epoch?
+
+
+[11/25/2022 16:59] colingplatt
+Was trying to grok how evm_hooks works. Looks like it's saved every transaction? Or is it done every epoch?
+
+
+[11/25/2022 17:00] terpayyo
+after every transaction
+
+
+[11/25/2022 17:00] colingplatt
+Ok then please ignore that point
+
+
+[11/25/2022 17:00] colingplatt
+I'm having issues getting onto the C4 site to log it but I noted a gas optimisation to TK
+
+
+[11/25/2022 17:00] colingplatt
+Re the use of Counter
+
+
+[11/25/2022 17:01] colingplatt
+As you're using erc721enumerable
+
+
+[11/25/2022 17:01] colingplatt
+You can just use totalSupply and bin the counter
+
+
+[11/25/2022 17:01] terpayyo
+i agree completely. We had a discussion with the team and decided this was the best design decision for V1. However, once this is stable and live on mainnet the feature upgrade to support retroactive registration is probably the first upgrade we will ship to the module.
+
+
+[11/25/2022 17:02] colingplatt
+I logged a PR to CIP-001. I'm personally a bit concerned about how this might negatively impact projects already live. Perhaps the PR is the better venue for discussion
+
+{Reactions}
+👍 
+
+[11/25/2022 17:02] colingplatt
+I've got a PoC for the function that I can share with you as well
+
+
+[11/25/2022 17:06] colingplatt
+Also for usability and adoption it would probably make sense to overlay Turnstile this on an interface so developers on Canto can quickly integrate it (but again not sure this is the venue, albeit that would have a small impact on the implementation)
+
+
+[11/28/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Canto** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+🥳 (5) 
+
+[12/08/2022 21:52] ladboy233
+If I link to a wrong channel I will remove.
+
+
+[12/08/2022 21:52] ladboy233
+🔥
+
+
+[12/08/2022 22:40] rotcivegaf
+Weird, I participated in this contest and I'm not on the table, maybe it's not ready yet
+
+
+[12/08/2022 23:16] chaduke3730
+I cannot see my name there either
+
+
+[12/08/2022 23:28] 0xsorrynotsorry
+This PR is for the previous one (September contest), fyi @Rotcivegaf @chaduke
+
+{Reactions}
+😆 😂 
+
+[12/08/2022 23:47] ladboy233
+😂
+
+
+[12/08/2022 23:49] jm217
+3 months? why did it take that long?
+
+
+[12/08/2022 23:51] carlitox477
+https://tenor.com/view/first-time-meme-first-time-the-ballad-of-buster-scruggs-gif-24656975
+
+{Embed}
+https://tenor.com/view/first-time-meme-first-time-the-ballad-of-buster-scruggs-gif-24656975
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/first-time-meme-first-time-0A324.png
+
+{Reactions}
+🤣 (5) 
+
+[12/08/2022 23:51] jm217
+😳
+
+
+[12/08/2022 23:53] jm217
+just curious, is it the judge or c4 or sponsor taking long?
+
+
+[12/08/2022 23:54] jm217
+@Rotcivegaf @chaduke for the nov23 contest, check after 3 months 😂
+
+
+[12/08/2022 23:54] chaduke3730
+ok
+
+
+[12/08/2022 23:55] chaduke3730
+no wonder
+
+
+[12/09/2022 07:41] 0xsorrynotsorry
+Never the C4 or the judges. Many times it's due to mitigation implementation of the project.
+
+
+[12/09/2022 09:08] bit.surfer
+If you check at C4 docs [https://docs.code4rena.com/structure/our-process]  the "awards announced" is not in the same period as "Sponsors complete mitigation of any issues". Not sure if c4 changed their policy (if so, they should update the docs too)
+
+
+[12/09/2022 10:02] cloudellie
+That's right. We try to announce awards as soon as possible after judging is complete, but mitigations can take time, especially if complex vulnerabilities were discovered. We don't publish reports, or open the findings repos, until we have the sponsor's consent to do so, for reasons that are probably self-evident. 
+
+If you have further questions, let's move them out of the contest channel and into a more general chat channel like #❓questions , please.
+
+
+[12/09/2022 12:23] ladboy233
+And that makes a lot of sense.
+
+{Reactions}
+👍 
+
+[12/09/2022 12:37] jm217
+@CloudEllie - away thank you for the answer. It makes sense. 👍
+
+{Reactions}
+hi5 
+
+[12/14/2022 17:43] itsmetechjay
+🤑 🎉  Awards for **Canto Dex Oracle, September contest**:
+
+24672.51 CANTO » @Critical 
+17407.50 CANTO » @csanuragjain 
+17164.68 CANTO » @Respx 
+9475.97 CANTO » @linmiaomiao 
+8415.65 CANTO » @hickuphh3 
+7507.83 CANTO » @__141345__ 
+7507.83 CANTO » @sorryNotsorry 
+2210.96 CANTO » @Jeiwan 
+2210.96 CANTO » SinceJuly
+1545.97 CANTO » @Chom 
+1303.14 CANTO » @0xSmartContract 
+1303.14 CANTO » @cccz 
+1303.14 CANTO » V_B (@Barichek, @Vlad B | zkSync)
+907.82 CANTO » @0xNazgul 
+907.82 CANTO » @zhuXKET 
+907.82 CANTO » CertoraInc (@egjlmn1, @Ori Dabush, @shakedwinder, @RoiEvenHaim, @ItayG)
+907.82 CANTO » @Deivitto 
+907.82 CANTO » @fatherOfBlocks 
+907.82 CANTO » @hansfriese 
+907.82 CANTO » @thinklab 
+907.82 CANTO » @rbserver 
+907.82 CANTO » @rokinot 
+907.82 CANTO » @Tomo | NinjAudit 
+664.99 CANTO » @0xv0id 
+664.99 CANTO » BipinSah
+664.99 CANTO » @m_Rassska 
+664.99 CANTO » @Prasant Gupta 
+664.99 CANTO » @Rohan 
+664.99 CANTO » @Sm4rty 
+242.82 CANTO » @0X040 
+242.82 CANTO » @0x1f8b 
+242.82 CANTO » @0x52 
+242.82 CANTO » @0xA5DF 
+242.82 CANTO » @a12jmx 
+242.82 CANTO » @ajtra 
+242.82 CANTO » @ak1
+242.82 CANTO » @Bnke 
+242.82 CANTO » @Bronicle 
+242.82 CANTO » @codexploder 
+242.82 CANTO » @Kiki 
+242.82 CANTO » @cryptphi 
+242.82 CANTO » @Diraco 
+242.82 CANTO » @Dravee 
+242.82 CANTO » @EricTee 
+242.82 CANTO » @TuckSparrow 
+242.82 CANTO » @gogo 
+242.82 CANTO » @hake | SmartSek 
+242.82 CANTO » @Ignacio 
+242.82 CANTO » @IgnacioB 
+242.82 CANTO » @Jancem 
+242.82 CANTO » @JC
+242.82 CANTO » @lukris02 
+242.82 CANTO » @ontofractal 
+242.82 CANTO » @p_crypt0 
+242.82 CANTO » @pashov 
+242.82 CANTO » @peritoflores 
+242.82 CANTO » @R2
+242.82 CANTO » @rajatbeladiya 
+242.82 CANTO » @RaymondFam 
+242.82 CANTO » @ReyAdmirado 
+242.82 CANTO » @Rolezn 
+242.82 CANTO » @rvierdiiev 
+242.82 CANTO » @tnevler 
+242.82 CANTO » @TomJ 
+242.82 CANTO » @Yiko 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 5 total, 1 unique
+Med risk findings: 30 total, 6 unique
+QA findings: 51
+
+***Note: Awards will be distributed on Canto, an EVM chain, once we have confirmed that your wallet supports it.  In the next day or two, we will add you to a Discord channel with more information.***
+
+{Reactions}
+🥳 (9) C4Keycap (6) 
+
+[12/15/2022 00:12] rotcivegaf
+this is the results of https://code4rena.com/contests/2022-11-canto-contest ??
+
+{Embed}
+https://code4rena.com/contests/2022-11-canto-contest
+Code4rena Canto contest
+$24,500 worth of CANTO
+23 November 2022—28 November 2022
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/8df1cc3b-fef3-481c-b99d-398698165d39-CBEE2
+
+
+[12/15/2022 00:14] itsmetechjay
+this is the September one.  I'll add that to the announcement.
+
+
+[12/15/2022 00:15] itsmetechjay
+This one: https://code4rena.com/contests/2022-09-canto-dex-oracle-contest/
+
+{Reactions}
+👍 
+
+[12/15/2022 17:10] csanuragjain
+@Jay | C4 I  can see canto listed in mexc exchange but the deposit address is asking for chain. Can you please tell if correct chain is canto or canto evm?
+
+
+[12/15/2022 17:26] itsmetechjay
+@🐔👨🏼⚖ eric (ninek) | C4 can you chime in here?
+
+
+[12/15/2022 17:33] nine_k
+probably best to confirm with the Canto docs, this might be a good place to start https://docs.canto.io/user-guides/connecting-to-canto
+
+
+[12/16/2022 01:57] lukejohn_
+When will the nov contest result become available?
+
+
+[12/28/2022 22:12] nicobevi.eth
+any updates?
+
+
+[12/29/2022 00:08] bit.surfer
+https://discord.com/channels/810916927919620096/810929015509483554/1055581750065107046
+
+{Reactions}
+this 
+
+[01/13/2023 13:05] un_for_given
+https://github.com/code-423n4/code423n4.com/pull/6752/files
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/6752/files
+Add Canto 2022-11 results by CloudEllie · Pull Request #6752 · code...
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/84729667-C9F7E
+
+{Reactions}
+👀 (3) 
+
+[01/13/2023 18:30] liveactionllamac4
+🤑 🎉  Awards for **Canto, November contest**:
+
+27742.15 CANTO » @hihen 
+26538.25 CANTO » @Jeiwan  
+25124.97 CANTO » @ronnyx2017 | Offside Labs  
+13609.36 CANTO » @sorryNotsorry  
+12248.42 CANTO » @Ruhum  
+4694.09 CANTO » @0xSmartContract  
+3695.58 CANTO » @Rotcivegaf  
+1671.46 CANTO » @Tricko  
+1285.74 CANTO » @nicobevi.eth  
+1285.74 CANTO » @Beepidibop  
+455.55 CANTO » @martin11  
+455.55 CANTO » @gzeon  
+455.55 CANTO » @Aphak5010  
+455.55 CANTO » @RaymondFam  
+455.55 CANTO » @peritoflores  
+455.55 CANTO » @Deivitto  
+370.82 CANTO » @joestakey  
+370.82 CANTO » @cccz  
+370.82 CANTO » @keccak123  
+370.82 CANTO » @cryptonue  
+370.82 CANTO » @Josiah  
+84.74 CANTO » @0xhacksmithh  
+84.74 CANTO » @chrisdior4  
+84.74 CANTO » @chaduke  
+84.74 CANTO » @Sathish9098  
+84.74 CANTO » @ReyAdmirado  
+84.74 CANTO » @exolorkistis  
+84.74 CANTO » @0xSurena  
+84.74 CANTO » @Rahoz  
+84.74 CANTO » @Englave  
+84.74 CANTO » @AkshaySrivastav  
+84.74 CANTO » @Dinesh11G  
+84.74 CANTO » @DijkstraDev  
+84.74 CANTO » @abiih  
+84.74 CANTO » @thinklab  
+84.74 CANTO » @Awesome  
+84.74 CANTO » @JC  
+ 
+High risk findings: 5 total, 2 unique
+Med risk findings: 4 total, 3 unique
+Gas reports: 26 
+QA reports: 13 
+
+***Note: Awards will be distributed on Canto, an EVM chain, once we have confirmed that your wallet supports it. For those of you who have not participated in previous Canto contests, we will be adding you to a Discord channel with more information shortly.***
+
+{Reactions}
+😂 (5) C4Keycap 🎉 👏 
+
+[01/13/2023 19:03] 0xsorrynotsorry
+Congratulations all.. @Jeiwan  you inspire me alot man. 🎉
+
+{Reactions}
+🍻 
+
+[01/13/2023 20:00] 0xsorrynotsorry
+I feel the vibe as if  you have a frontrunning bot on mainnet @unforgiven  🙂
+
+{Reactions}
+😄 😂 
+
+[01/23/2023 08:36] sathish9098kumar
+Rewards sent ?
+
+
+[01/25/2023 22:16] martin7096
+Hello, I'm trying to bridge my reward from Usdc on Canto EVM to gravity bridge but is seems impossible.
+
+
+[01/25/2023 22:27] 0xsmartcontract
+https://discord.com/channels/810916927919620096/1052354679377502278/1062492725305421884
+
+
+[01/25/2023 22:30] martin7096
+Yes, I have done the first one but synapseprotocol canto support is "temporarily paused"
+
+
+[01/28/2023 17:47] peritoflores
+hi @🐔👨🏼⚖ eric (ninek) | C4  I didn't receive my canto awards.    Anyone same problem?
+
+
+[01/28/2023 18:19] chaduke3730
+canto rewards? Not sure about that
+
+
+[01/29/2023 14:20] peritoflores
+yes canto awards
+
+
+[01/29/2023 15:03] chaduke3730
+thanks, that is kind of Canto. is this the right parameter setting for metmask? https://docs.canto.io/user-guides/connecting-to-canto
+
+{Embed}
+https://docs.canto.io/user-guides/connecting-to-canto
+Connecting to Canto
+Code4rena - ARCHIVE-Q4-2022 - ⚛canto-nov23 [1017115944675451072].txt_Files/vKbPc16wshYjQTy94XZm-5E707.png
+
+{Reactions}
+👍 
+
+[01/30/2023 12:47] paroxysm9999
+Tagged in Canto wallet help channel.
+
+
+[01/30/2023 12:54] paroxysm9999
+https://discord.com/channels/810916927919620096/1052354679377502278
+
+
+[01/30/2023 14:46] chaduke3730
+@Paroxysm | C4Yes my wallet is set up and ready for canto
+
+
+[02/01/2023 06:50] chrisdior4#1308
+@Paroxysm | C4  Hello I have opened a help desk request, my wallet is set up and waiting the rewards from this contest, thank you 🙂
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 155 message(s)
+==============================================================
